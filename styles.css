@@ -1,20 +1,17 @@
-.margin-top {
-  margin-top: 30px;
-}
-
 .notification {
+  margin-top: 30px;
   padding: 1.25rem 1.5rem;
 }
 
-@media screen and (min-width: 769px) {
-  .column { min-width: 50%; }
-}
+/*@media screen and (min-width: 769px) {
+  .column { min-width: 0%; }
+}*/
 
-.result {
+/*.result {
   height: 100%;
-}
+}*/
 
-.subtitle {
+.title, .subtitle {
   text-align: center;
 }
 
