@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous"></script>
+
+    <script src="crypto-js-aes.js"></script>
+    <script src="main.js"></script>
+
+    <title>Encrypt String with JavaScript</title>
+  </head>
+  <body>
+
+    <main>
+      <h1>Encrypt String with JavaScript, Using Crypto-JS</h1>
+
+      <form id="encrypt-set">
+        <input type="text" id="encrypt-plain-string" class="input-string" placeholder="Plain string to encrypt">
+        <input type="text" id="encrypt-password" class="input-string" placeholder="Password">
+
+        <input type="submit" id="encrypt-submit" value="Encrypt">
+        <input type="submit" id="clear-form" value="Clear this form">
+      </form>
+
+      <div class="result">
+        <h3>Encrypted string: <span id="encrypted-result"></span></h3>
+      </div>
+
+      <hr>
+
+      <form id="decrypt-set">
+        <input type="text" id="decrypt-plain-string" class="input-string" placeholder="Plain string to decrypt">
+        <input type="text" id="decrypt-password" class="input-string" placeholder="Password">
+
+        <input type="submit" id="decrypt-submit" value="Decrypt">
+        <input type="submit" id="clear-form" value="Clear this form">
+      </form>
+
+      <div class="result">
+        <h3>Decrypted string: <span id="decrypted-result"></span></h3>
+      </div>
+    </main>
+
+    <footer class="info">
+
+    </footer>
+
+  </body>
+</html>
