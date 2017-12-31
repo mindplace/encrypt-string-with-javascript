@@ -1,6 +1,6 @@
 # Encrypt and decrypt strings in a UI with Crypto-JS
 
-## [Live site](http://estherleytush.com/encrypt-string-with-javascript/)
+## [Live site](http:/mindplace.github.io/encrypt-string-with-javascript/)
 
 ![site-screenshot](encrypt-screenshot.jpg)
 
